@@ -28,6 +28,7 @@ public class Weather {
         System.out.println(a/b);// wydrukuje bez reszty
         System.out.println(5f/b);// wydrukuje dokładnie
         System.out.println(a%b);// wdrukuje tylko resztę
+        System.out.println("testnocny");
 
         //kahoot.it strona s quizami
 

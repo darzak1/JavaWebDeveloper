@@ -8,15 +8,15 @@ public class MarsApplication {
 
         spirit.showAttribute();
 
-        System.out.println("Zwiększamy prędkość do 3.");
+        System.out.println("Zwiększamy prędkość do 3. dla spirit");
 
         spirit.speed = 3;
         spirit.showAttribute();
 
-        System.out.println("Zmiana temperatury na -90");
+        System.out.println("Zmiana temperatury na -90 dla spirit");
         spirit.temperature = -90;
         spirit.showAttribute();
-        System.out.println("Sprawdzenie temperatury");
+        System.out.println("Sprawdzenie temperatury  dla spirit");
         spirit.checkTemperature();
         spirit.showAttribute();
 

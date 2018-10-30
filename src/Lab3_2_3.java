@@ -3,34 +3,34 @@ public class Lab3_2_3 {
 
 
 
-        C c1 = new C();
-        C c2 = new C();
+        D c1 = new D();
+        D c2 = new D();
 
 
-        System.out.println("Stworzono " + C.counter + " obiektów");
+        System.out.println("Stworzono " + D.counter + " obiektów");
 
-        C c3 = new C();
-        C c4 = new C();
-        C c5 = new C();
+        D c3 = new D();
+        D c4 = new D();
+        D c5 = new D();
 
         for (int i=1; i < 100000; i++){
-            new C()
+            new D();
         }
 
     }
 }
 
-class C {
+class D {
 
     static int counter;
 
-    public C (){
+    public D() {
 
-        counter++
-    }
+        counter++;
+
 
         System.out.println("Tworzę nowy Obiekt");
 
+
     }
-
-
+}
